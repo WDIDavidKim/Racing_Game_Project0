@@ -1,9 +1,12 @@
-h1 { color: #404040;
-  font-family: 'Architects Daughter', cursive;
+h1 { color: #ff0000;
+  font-family: 'Atma', cursive;
   font-size: 60px;
   margin-top: 0;
   text-align: center;
   text-shadow: 5px 5px 5px #aaa;
+  background: #ffff1a;
+  opacity: .7;
+  border-radius: 2em;
 }
 
 
@@ -17,15 +20,17 @@ body{
 }
 
 .container{
-  outline: 1px solid black;
+  outline: 2px solid black;
   height: 400px;
-  width: inherit;
+  width: 99%;
+  position: relative;
 }
 
 .footer {
   padding: .5em;
   background-color: #efefef;
+  background-size: cover;
   text-align: center;
   font-family: 'Architects Daughter', cursive;
-  font-size: 18px;
+  font-size: 16px;
 }
