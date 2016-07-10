@@ -17,7 +17,9 @@ body{
 }
 
 .container{
-  width:inherit;
+  outline: 1px solid black;
+  height: 400px;
+  width: inherit;
 }
 
 .footer {
