@@ -46,3 +46,13 @@ p{
   width: 1150px;
   position: fixed;
 }
+
+.player1Wins{
+  color: white;
+  text-align: center;
+}
+
+.player2Wins{
+  color: white;
+  text-align: center;
+}
