@@ -7,7 +7,7 @@ html{
 h1 {
   color: white;
   font-family: 'Atma', cursive;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 0;
   text-align: center;
   text-shadow: 5px 5px 5px #aaa;
@@ -29,7 +29,6 @@ p{
   opacity: .7;
   margin-top: 0;
   font-family: 'Atma', cursive;
-
 }
 
 .player1{
