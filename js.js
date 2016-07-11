@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+
+
+
 function player1(){
 }
   $(document).keyup(function(e) {
@@ -31,9 +34,13 @@ function stop() {
   $('.player1').stop();
   $('.player2').clearQueue();
   $('.player2').stop();
-  $(document).off("keyup");
+  // $(document).off("keyup");
       }
 
+$("button").click(function(restart){
+  $(".player1").css({'left':'0','opacity':'1'});
+  $(".player2").css({'left':'0','opacity':'1'});
+    });
 
 
 
