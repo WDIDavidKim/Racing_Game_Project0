@@ -1,5 +1,7 @@
 # Racing_Game_Project0
 
+SORRY HAD TO USE ALERT FOR NOW. Will work on a hidden display after.
+
 Player 1 is 0
 Player 2 is 1
 
