@@ -2,21 +2,19 @@ html{
   background-image: url("https://media.giphy.com/media/dqW8RSNNJMRrO/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
-h1 { color: white;
+h1 {
+  color: white;
   font-family: 'Atma', cursive;
   font-size: 60px;
   margin-top: 0;
   text-align: center;
   text-shadow: 5px 5px 5px #aaa;
-  opacity: .7;
+  opacity: .8;
 }
 
-
 body{
-  /*background: white;*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24,30 +22,28 @@ body{
   height: 100%;
 }
 
+p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  opacity: .7;
+  margin-top: 0;
+  font-family: 'Atma', cursive;
+
+}
+
 .player1{
   position: relative;
+  max-width: 100px;
 }
 
 .player2{
   position: relative;
+  max-width: 100px;
 }
 
 .container{
-  /*background-image: url("https://media.giphy.com/media/dqW8RSNNJMRrO/giphy.gif");
-  background-repeat: no-repeat;
-  background-size: cover;*/
-
-  /*outline: 2px solid black;*/
   height: 400px;
   width: 1150px;
   position: fixed;
 }
-
-/*.footer {
-  padding: .5em;
-  background-color: #efefef;
-  background-size: cover;
-  text-align: center;
-  font-family: 'Architects Daughter', cursive;
-  font-size: 16px;
-}*/
